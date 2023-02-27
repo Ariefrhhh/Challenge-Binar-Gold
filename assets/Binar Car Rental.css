@@ -1,6 +1,4 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    }
+
     
     .parent {background-color: #F1F3FF;}
                 .title-header{width: 100px; height: 34px; background-color: blue;}
@@ -22,7 +20,6 @@ body{
     }
     
     
-    
     .card-body1 {
         margin: 30px 60px 30px 60px;
         font-weight: 700;
@@ -31,11 +28,13 @@ body{
     .card-title1{
         line-height: 24px;
         font-size: 16px;
+        font-family:Arial, Helvetica, sans-serif
     }
     
     .card-paragraph1{
         line-height: 20px;
         font-size: 14px;
+        font-family:Arial, Helvetica, sans-serif
     }
     
     .card-container1{
@@ -50,18 +49,11 @@ body{
         padding-bottom: 25px;
     }
     
-    .title-FAQ {
-        background-color:#0D28A6;
-        color: white ;
-        border-radius: 13px;
-        padding: 100px;
-        width: 90%;
-        height: 100%;
-    }
     
-    .title-FAQ h1 {
-        font-weight: 700;
+    .title-sewamobil h1 {
+    font-weight: 700;
     font-size: 36px;
+    font-family:Arial, Helvetica, sans-serif
     }
     
     .custom-button1{
@@ -78,10 +70,42 @@ body{
         background-color: #0D28A6;
         color: white;
         border-radius: 16px;
+        width: 80%;
+        padding: 100px;
+    }
+
+    .FAQ-text h1 {
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 700;
+        font-family:Arial, Helvetica, sans-serif
     }
     
+    .FAQ-text p {
+        font-size: 14px;
+        line-height: 26px;
+        font-weight: 700;
+        font-family:Arial, Helvetica, sans-serif
+    }
+
+    .dropdown button{
     
-    @media only screen  and (max-width: 576px) and (min-width:300px) {
+       background-color: white;
+       border: 1px solid #D4D4D4;
+       color: black;
+       width: 35rem;
+       margin-left: 30px;
+       margin-top: 16px;
+       text-align: left;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 15px;
+              }
+
+
+    
+     @media only screen and (min-width: 300px) and (max-width: 756px) {
     
         .hero{
             flex-direction: column
@@ -95,10 +119,9 @@ body{
          }
     
     
-         .card-whyus{
-            width: 100%;
-        
-         }
+        .card-body1{
+            width: auto;
+        }
     
          .img-fit {
             width: 100%;
@@ -113,4 +136,19 @@ body{
          text-align: center;
          }
          
+         .FAQ-container {
+            flex-direction: column;
+         }
+
+         .FAQ-text{
+           text-align: center;
+           margin-top: 10px;
+         }
+
+         .dropdown button{
+            width: 28rem;
+            padding-right: 20px;
+         }
+
+
     }
